@@ -27,13 +27,15 @@ Also the data splits between train, test, and validation is not correctly distri
 **Framework**: PyTorch, Torchvision
 
 ## Project structure
+
+```plaintext
 xray_pneumonia_project/
-│
-├── denver_xray_model.ipynb         # Jupyter notebook (I used PyCharm IDE)
-├── README.md                       # Project overview, setup, usage, and results
-├── requirements.txt                # required libraries
-├── resnet18-f37072fd.pth           # Pretrained ResNet weights 
-├── xray_model_weights.pth          # model’s state_dict
+├── denver_xray_model.ipynb         # Jupyter notebook (developed using PyCharm IDE)
+├── README.md                       # Project overview, setup instructions, and results
+├── requirements.txt                # List of required Python libraries
+├── resnet18-f37072fd.pth          # Pretrained ResNet18 weights file
+├── xray_model_weights.pth         # Trained model state dictionary
+```
 
 ## Model Architecture
 
