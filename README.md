@@ -4,7 +4,7 @@ This project is a deep learning-based medical imaging classifier that detects pn
 It was able to achieve 98% test accuracy on a set of 1812 test X-ray images.
 It demonstrates the potential of convolutional neural networks in healthcare diagnostics.
 
-**Please keep in mind, this is my first ever ML project. I self thought myself all content with a big shoutout to Mr. Daniel Bourke for his free PyTorch course on YouTube with around 25 hours of great learning material (https://www.youtube.com/watch?v=V_xro1bcAuA&t=2598s). Amazing time that we live in!**
+**Please keep in mind, this is my first ever ML project. I self taught myself all content with a big shoutout to Mr. Daniel Bourke for his free PyTorch course on YouTube with around 25 hours of great learning material (https://www.youtube.com/watch?v=V_xro1bcAuA&t=2598s). Amazing time that we live in!**
 
 ## Project overview
 
