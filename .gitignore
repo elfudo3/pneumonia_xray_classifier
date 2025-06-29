@@ -1,0 +1,28 @@
+#Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Virtual environments
+.venv/
+env/
+venv/
+
+#Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+#macOS system files
+.DS_Store
+
+#Logs and databases
+*.log
+*.sqlite3
+
+#IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+#Python cache files
+*.pyc
