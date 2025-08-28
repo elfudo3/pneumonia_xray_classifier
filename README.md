@@ -4,8 +4,6 @@ This project is a deep learning-based medical imaging classifier that detects pn
 It was able to achieve 98% test accuracy on a set of 1812 test X-ray images.
 It demonstrates the potential of convolutional neural networks in healthcare diagnostics.
 
-**Please keep in mind, this is my first ever ML project. I self taught myself all content with a big shoutout to Mr. Daniel Bourke for his free PyTorch course on YouTube with around 25 hours of great learning material (https://www.youtube.com/watch?v=V_xro1bcAuA&t=2598s). Amazing time that we live in!**
-
 ## Project overview
 
 **Goal**: Classify chest X-ray images as either 'NORMAL' or 'PNEUMONIA'.
@@ -46,33 +44,6 @@ xray_pneumonia_project/
   - Random horizontal flip
   - Random rotation
   - Small Translations
-
-## How to Run
-1. Clone the repository:
-bash:
-git clone https://github.com/elfudo3/xray_pneumonia_project.git
-cd xray_pneumonia_project
-
-2. (Optional) Create virtual enviroment
-bash: 
-python3 -m venv .venv
-source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
-
-3. Install dependencies
-bash:
-pip install -r requirements.txt
-
-4. (These are included in the project folder, but if theres an issue): Download pretrained ResNet18 weights from: https://download.pytorch.org/models/resnet18-f37072fd.pth
-Save it as:
-bash:
-wget https://download.pytorch.org/models/resnet18-f37072fd.pth
-
-5. Run the notebook
-   Make sure you have Jupyter installed. Then run:
-bash:
-jupyter notebook 
-
-6. Open xray_project.ipynb in the browser and execute cells step by step
 
 ## Credits
 - Dataset: Paul Mooney on Kaggle
