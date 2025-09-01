@@ -18,7 +18,6 @@ NOTE: I manually balanced out the dataset so the model wouldn't have a huge bias
 Also the data splits between train, test, and validation is not correctly distributed so this had to be adjusted also. 
 - Kaggle dataset split: *Train: 89.04%; Test: 10.65%; Validation: 0.31%* (PNEUMONIA: ~73%; NORMAL: ~27%)
 - Edited dataset split: *Train: 46.4%; Test 26.65; Validation: 26.6%* (PNEUMONIA: ~52%; NORMAL: ~48%)
-**The split should really be at least 70/15/15; That's my bad, plenty of Data Science for me to master.**
 
 **Accuracy**: ~98% on validation set. ~98% on test set. 
 
@@ -29,7 +28,7 @@ Also the data splits between train, test, and validation is not correctly distri
 ```plaintext
 xray_pneumonia_project/
 ├── denver_xray_model.ipynb         # Jupyter notebook (developed using PyCharm IDE)
-├── README.md                       # Project overview, setup instructions, and results
+├── README.md                       # Project overview and results
 ├── requirements.txt                # List of required Python libraries
 ├── resnet18-f37072fd.pth          # Pretrained ResNet18 weights file
 ├── xray_model_weights.pth         # Trained model state dictionary
@@ -54,6 +53,6 @@ xray_pneumonia_project/
 ## Future improvements
 - Better data split (70/15/15)
 - Building custom CNN from scratch
-- Lot's of other improvements that I am not even aware of yet! -> but will be as I continue my venture into Machine Learning. :)
+
 
 
